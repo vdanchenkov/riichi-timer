@@ -233,8 +233,7 @@
             counterElement.classList.add('flash');
             setTimeout(() => counterElement.classList.remove('flash'), 300);
             
-            // Звук сброса (другая частота)
-            playBeep(400, 150);
+            // Убрана звуковая индикация при сбросе
         }
 
         function handleMotion(event) {
